@@ -12,5 +12,10 @@
     "http-errors": "^2.0.0",
     "morgan": "^1.10.0",
     "pug": "^3.0.2"
-  }
+  },
+  "main": "app.js",
+  "author": "S554978kattamuri",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
 }
