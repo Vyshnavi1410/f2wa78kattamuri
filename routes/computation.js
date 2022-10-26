@@ -3,14 +3,14 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    var id1 = Math.floor(Math.random()*10);
-    var id2 = Math.floor(Math.random()*10);
-    var log = Math.log(id1);
-    var cosh = Math.cosh(id2);
-    var floor = Math.floor(id1);
+    var x = Math.floor(Math.random()*10);
+    var y = Math.floor(Math.random()*10);
+    var log = Math.log(x);
+    var cosh = Math.cosh(y);
+    var floor = Math.floor(x);
     res.render('computation', { title: 'Vyshnavi Kattamuri',
-    id1: id1,
-    id2:id2,
+    x: x,
+    y: y,
     log: log,
     cosh: cosh,
     floor: floor
